@@ -1,6 +1,6 @@
 # Go Restful API Boilerplate
 
-[![GoDoc Badge]][godoc] [![GoReportCard Badge]][goreportcard]
+[![GoDoc Badge]][godoc]
 
 Easily extendible RESTful API boilerplate aiming to follow idiomatic go and best practice.
 
@@ -76,16 +76,10 @@ If you want to access the api from a client that is served from a different host
 
 #### Demo client application
 
-A deployed demo version can also be found at [https://go-base.leapcell.app/](https://go-base.leapcell.app/)
+A (now archived) demo [Vue.js](https://vuejs.org) PWA client's source code can be found [here](https://github.com/dhax/go-base-vue). You can build and put it into the api's _./public_ folder, or use the live development server (requires ENABLE_CORS environment variable set to true).
 
-For demonstration of the login and account management features this API serves a demo [Vue.js](https://vuejs.org) PWA. It's source code can be found [here](https://github.com/dhax/go-base-vue). You can build and put it into the api's _./public_ folder, or use the live development server (requires ENABLE_CORS environment variable set to true).
-
-Use one of the following bootstrapped users for login:
-
-- <admin@example.com> (has access to admin panel)
-- <user@example.com>
+## Referral
+This is a very basic template to get you started. If you are looking for a similar style but more complete and production-ready boilerplate you might want to have a look at [goilerplate (affiliate link)](https://goilerplate.com/?atp=dhax).
 
 [godoc]: https://godoc.org/github.com/dhax/go-base
 [godoc badge]: https://godoc.org/github.com/dhax/go-base?status.svg
-[goreportcard]: https://goreportcard.com/report/github.com/dhax/go-base
-[goreportcard badge]: https://goreportcard.com/badge/github.com/dhax/go-base
